@@ -1,0 +1,45 @@
+[submodule "git-init"]
+	path = git-init
+	url = https://github.com/sdoubleday/git-init.git
+[submodule "GetCallerPreference"]
+	path = GetCallerPreference
+	url = https://github.com/sdoubleday/GetCallerPreference.git
+[submodule "DeployISESnippets"]
+	path = DeployISESnippets
+	url = https://github.com/sdoubleday/DeployISESnippets.git
+[submodule "New-DynamicParameter"]
+	path = New-DynamicParameter
+	url = https://github.com/sdoubleday/New-DynamicParameter.git
+[submodule "Lumberjack"]
+	path = Lumberjack
+	url = https://github.com/sdoubleday/Lumberjack.git
+[submodule "New-FunctionFromConstructors"]
+	path = New-FunctionFromConstructors
+	url = https://github.com/sdoubleday/New-FunctionFromConstructors.git
+[submodule "Set-SSASAggregationDesign"]
+	path = Set-SSASAggregationDesign
+	url = https://github.com/sdoubleday/Set-SSASAggregationDesign.git
+[submodule "Update-TextInNotepad"]
+	path = Update-TextInNotepad
+	url = https://github.com/sdoubleday/Update-TextInNotepad.git
+[submodule "SaveSecureString"]
+	path = SaveSecureString
+	url = https://github.com/sdoubleday/SaveSecureString.git
+[submodule "PesterNewFixtureModule"]
+	path = PesterNewFixtureModule
+	url = https://github.com/sdoubleday/PesterNewFixtureModule.git
+[submodule "Invoke-Git"]
+	path = Invoke-Git
+	url = https://github.com/sdoubleday/Invoke-Git.git
+[submodule "EncodingHelper"]
+	path = EncodingHelper
+	url = https://github.com/sdoubleday/EncodingHelper.git
+[submodule "PowerShellCombinations"]
+	path = PowerShellCombinations
+	url = https://github.com/sdoubleday/PowerShellCombinations.git
+[submodule "DataProfileByVariable"]
+	path = DataProfileByVariable
+	url = https://github.com/sdoubleday/DataProfileByVariable.git
+[submodule "Import-SmoAssemblies"]
+	path = Import-SmoAssemblies
+	url = https://github.com/sdoubleday/Import-SmoAssemblies.git

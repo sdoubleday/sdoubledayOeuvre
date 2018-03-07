@@ -12,13 +12,13 @@ $useremail = Get-Content $useremailfilename
 
 $gitUserConfigScriptPath = Get-ChildItem .\gitUserConfig.ps1 | Select-Object -ExpandProperty FullName
 
-. $gitUserConfigScriptPath
+. $gitUserConfigScriptPath -UserName $username -UserEmail $useremail
 If (-not $SuppressBootstrap.IsPresent) {
 write-verbose "Running bootstrap..." -Verbose
 . .\bootstrap.ps1
 }
 ELSE {write-verbose "Bootstrap suppressed." -Verbose}
 
-Get-ChildItem -Directory | Get-ChildItem -filter setup.ps1 | ForEach-Object { Push-Location; Set-Location (Split-Path -Parent $_.Fullname); . $gitUserConfigScriptPath; . ".\$($_.Name)" -SuppressBootstrap ; Pop-Location }
+Get-ChildItem -Directory | Get-ChildItem -filter setup.ps1 | ForEach-Object { Push-Location; Set-Location (Split-Path -Parent $_.Fullname); . $gitUserConfigScriptPath -UserName $username -UserEmail $useremail; . ".\$($_.Name)" -SuppressBootstrap ; Pop-Location }
 
 write-verbose "Done ($PsCommandPath)." -Verbose
